@@ -272,28 +272,49 @@
           <i class="fab fa-github"></i>
         </div>
       </div>
+      <div class="row mySkills text-center">
+          <div class="col-3">
+              <img src="img/brands/bootstrap.png" width="40%" alt="Brootstrap framework logo">
+          </div>
+          <div class="col-3">
+              <i class="fab fa-css3-alt"></i>
+          </div>
+          <div class="col-3">
+              <i class="fab fa-npm"></i>
+          </div>
+          <div class="col-3">
+              <img src="img/brands/gimp.png" width="50%" alt="GNU Image Manipulation Program logo">
+          </div>
+        </div>
     </section>
     <section class="container py-5" id="contact">
       <h2>Contact</h2>
       <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <div class="form-group">
+              <label for="inputName">Name</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inputName"
+                placeholder="Enter name"
+              />          
+        <div class="form-group mt-2">
+          <label for="inputEmail">Email address</label>
           <input
             type="email"
             class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
+            id="inputEmail"
             placeholder="Enter email"
-          />
-          <small id="emailHelp" class="form-text text-muted"
-            >I'll never share your email with anyone else.</small
-          >
+          />          
         </div>
         <div class="form-group">
           <label for="emailTextArea">Your message</label>
-          <textarea class="form-control" id="emailTextArea" rows="5"></textarea>
+          <textarea class="form-control" id="emailTextArea" rows="5" placeholder="Start typing your message here"></textarea>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
+        <small id="privacyHelp" class="form-text text-muted"
+            >Note: I'll never share your email with anyone else.</small
+          >
       </form>
     </section>
 

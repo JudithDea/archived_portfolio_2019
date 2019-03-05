@@ -18,6 +18,10 @@ body {
   border-radius: 10px;
 }
 
+h2 {
+  margin-bottom: 20px;
+}
+
 .hr-fading {
   border: 0;
   height: 1px;
@@ -33,10 +37,6 @@ body {
   font-family: pacifico;
   font-size: 2em;
 }
-
-/* #mainNav {
-  background-color: #666670;
-} */
 
 #mainNav .nav-link:hover {
   color: #ffffff;
