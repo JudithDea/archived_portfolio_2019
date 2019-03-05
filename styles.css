@@ -3,6 +3,10 @@ body {
   font-family: poppins;
 }
 
+#copyright {
+  font-size: 10px;
+}
+
 .hero-button {
   width: 150px;
   padding: 12px;
@@ -12,6 +16,17 @@ body {
   text-align: center;
   text-decoration: none;
   border-radius: 10px;
+}
+
+.hr-fading {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0),
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0)
+  );
 }
 
 #mainBrand {
