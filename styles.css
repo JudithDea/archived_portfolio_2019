@@ -46,6 +46,10 @@ body {
   color: #ffffff;
 }
 
+#myPic {
+  border-radius: 125px;
+}
+
 .nav-item {
   font-size: 1.2em;
 }
