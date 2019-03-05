@@ -55,6 +55,18 @@ body {
   margin-top: auto;
 }
 
+.myProjects i {
+  font-size: 1.5em;
+}
+
+.mySkills {
+  font-size: 7em;
+}
+
 .nav-item {
   font-size: 1.2em;
+}
+
+.projectImage {
+  width: 100%;
 }
