@@ -1,4 +1,5 @@
 body {
+  background: #dcdbd9;
   font-family: poppins;
 }
 
@@ -69,4 +70,8 @@ body {
 
 .projectImage {
   width: 100%;
+}
+
+.projectThumbnail {
+  background-color: #ffffff;
 }
