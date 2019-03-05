@@ -46,8 +46,13 @@ body {
   color: #ffffff;
 }
 
+#myHeroContent {
+  margin-top: auto;
+}
+
 #myPic {
   border-radius: 125px;
+  margin-top: auto;
 }
 
 .nav-item {

@@ -28,7 +28,7 @@
   <body>
     <nav
       id="mainNav"
-      class="navbar fixed-top navbar-dark bg-dark navbar-expand-md py-0"
+      class="navbar fixed-top navbar-dark bg-dark navbar-expand-md py-0 px-5"
     >
       <a id="mainBrand" href="#" class="navbar-brand">Judith Dea</a>
       <button
@@ -58,13 +58,14 @@
       </div>
     </nav>
     <section id="myHero" class="hero-unit">
-      <h1>My Digital Journey</h1>
-      <h3>A portfolio</h3>
-      <hr />
-      <button class="hero-button">Contact</button>
+      <div id="myHeroContent">
+        <h1>My Digital Journey</h1>
+        <h3>A portfolio</h3>
+        <button class="hero-button mt-3">Contact</button>
+      </div>
     </section>
     <section class="container py-5">
-      <div class="row">
+      <div class="row align-items-center">
         <div class="col-9">
           <h2>About</h2>
           <p>
@@ -73,7 +74,7 @@
             take the <strong>Udacity Front End Web Development</strong> course
             which I completed in October of 2018 with a <em>Nanodegree</em>.
             <br />
-            Born and raised in Germany, I graduated from Bonn Universiy in 2010
+            Born and raised in Germany, I graduated from Bonn University in 2010
             <em>(Master's degree in Cultural Anthropology)</em>. For several
             years I have worked as conference manager at an international
             company, organizing events in many countries around the world.
@@ -90,6 +91,7 @@
         <div class="col-3">
           <img
             id="myPic"
+            class="img-fluid"
             src="img/judith.jpg"
             alt="Judith Dea profile picture"
           />
