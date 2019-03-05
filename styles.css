@@ -11,6 +11,17 @@ body {
   color: #ffffff;
 }
 
+#myHero {
+  height: 750px;
+  text-align: center;
+  padding-top: 25%;
+  background: url("img/header.jpg");
+  background-size: cover;
+  background-position: center;
+  /* THIS IS WHAT MAKES THE BACKGROUND STAY IN PLACE: */
+  background-attachment: fixed;
+}
+
 .nav-item {
   font-size: 1.2em;
 }
