@@ -43,7 +43,9 @@ h2 {
 }
 
 #myHero {
-  height: 750px;
+  width: 100vw;
+  height: 100vh;
+  /* height: 750px; */
   text-align: center;
   padding-top: 25%;
   background: url("img/header.jpg");
@@ -99,4 +101,28 @@ h2 {
 
 .projectThumbnail {
   background-color: #ffffff;
+}
+
+#slides {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  height: 250px;
+}
+
+#slides ul {
+  list-style: none;
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+#slides li {
+  width: 100%;
+  height: 250px;
+  float: left;
+  text-align: center;
+  position: relative;
 }
