@@ -39,37 +39,42 @@
 
   <body>
     <!-- NAV BAR -->
-    <nav
-      id="mainNav"
-      class="navbar fixed-top navbar-dark navbar-expand-md py-0 px-5"
-    >
-      <a id="mainBrand" href="#" class="navbar-brand">Judith Dea</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navItems"
-        aria-label="Toggle navigation"
+
+    <header role="banner">
+        <nav
+        id="mainNav"
+        class="navbar fixed-top navbar-dark navbar-expand-md py-0 px-5"
+        role="navigation"
       >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div id="navItems" class="collapse navbar-collapse">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a href="#about" class="nav-link">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="#projects" class="nav-link">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a href="#skills" class="nav-link">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a href="#contact" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <a id="mainBrand" href="#" class="navbar-brand">Judith Dea</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navItems"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="navItems" class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
 
     <!-- HERO SECTION -->
     <section id="myHero" class="hero-unit">
@@ -84,7 +89,7 @@
     <!-- ABOUT SECTION -->
     <section class="container py-5">
       <div class="row align-items-center">
-        <div class="col-md-9" id="about">
+        <div class="col-md-9" id="about" aria-label="Short bio">
           <h2>About</h2>
           <p>
             My journey into Web Development started in 2018 with earning a
@@ -118,7 +123,7 @@
     </section>
 
     <!-- PROJECT SECTION -->
-    <section class="container py-5" id="projects">
+    <section class="container py-5" id="projects" aria-label="list of portfolio projects">
       <h2>Projects</h2>
       <div class="row align-items-center myProjects text-center">
         <div class="col-sm-6 col-lg-4">
@@ -175,6 +180,7 @@
               A fun arcade game clone, functionality written in vanilla
               <strong>JavaScript</strong>. Use the arrow keys to navigate the
               character over to the water. <br />
+              Note: A keyboard must be used to move the character.
               <a
                 href="https://github.com/udacity/frontend-nanodegree-arcade-game"
                 target="_blank"
@@ -264,7 +270,7 @@
     </section>
 
 <!-- SKILLS SECTION -->
-    <section class="container py-5" id="skills">
+    <section class="container py-5" id="skills" aria-label="List of software skills">
       <h2>Skills</h2>
       <div class="row mySkills mt-1 text-center">
         <div class="col-6 col-md-3">
