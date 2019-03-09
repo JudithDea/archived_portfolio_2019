@@ -95,6 +95,12 @@ h2 {
   transition: background 500ms;
 }
 
+.newSkills {
+  display: none;
+  text-align: center;
+  font-size: 2em;
+}
+
 .projectImage {
   width: 100%;
 }
