@@ -38,6 +38,7 @@
   </head>
 
   <body>
+    <!-- NAV BAR -->
     <nav
       id="mainNav"
       class="navbar fixed-top navbar-dark navbar-expand-md py-0 px-5"
@@ -69,6 +70,8 @@
         </ul>
       </div>
     </nav>
+
+    <!-- HERO SECTION -->
     <section id="myHero" class="hero-unit">
       <div id="myHeroContent">
         <h1>My Digital Journey</h1>
@@ -119,7 +122,7 @@
     <section class="container py-5" id="projects">
       <h2>Projects</h2>
       <div class="row align-items-center myProjects text-center">
-        <div class="col-md-4">
+        <div class="col-sm-6 col-lg-4">
           <div class="projectThumbnail m-2 p-1 rounded">
             <img
               src="img/map.png"
@@ -162,7 +165,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 col-lg-4">
           <div class="projectThumbnail m-2 p-1 rounded">
             <img
               src="img/arcade.png"
@@ -210,7 +213,7 @@
             </div>
           </div>
         </div>
-        <div class="col-md-4">
+        <div class="col-sm-6 col-lg-4">
           <div class="projectThumbnail m-2 p-1 rounded">
             <img
               src="img/memory.png"
@@ -265,30 +268,30 @@
     <section class="container py-5" id="skills">
       <h2>Skills</h2>
       <div class="row mySkills mt-1 text-center">
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <i class="fab fa-html5"></i>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <i class="fab fa-js"></i>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <i class="fab fa-react"></i>
         </div>
-        <div class="col-3">
+        <div class="col-6 col-md-3">
           <i class="fab fa-github"></i>
         </div>
       </div>
       <div class="row mySkills mt-1 text-center">
-          <div class="col-3">
+          <div class="col-6 col-md-3">
               <img src="img/brands/bootstrap.png" width="40%" alt="Brootstrap framework logo">
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
               <i class="fab fa-css3-alt"></i>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
               <i class="fab fa-wordpress"></i>
           </div>
-          <div class="col-3">
+          <div class="col-6 col-md-3">
               <img src="img/brands/gimp.png" width="50%" alt="GNU Image Manipulation Program logo">
           </div>
         </div>
@@ -299,7 +302,7 @@
     </section>
     <section class="container py-5" id="contact">
       <h2>Contact</h2>
-      <form>
+      <form name="contact" method="POST" data-netflity="true">
           <div class="form-group">
               <label for="inputName">Name</label>
               <input
@@ -307,6 +310,7 @@
                 class="form-control"
                 id="inputName"
                 placeholder="Enter name"
+                name="name"
               />          
         <div class="form-group mt-2">
           <label for="inputEmail">Email address</label>
@@ -315,15 +319,19 @@
             class="form-control"
             id="inputEmail"
             placeholder="Enter email"
+            name="email"
           />          
         </div>
         <div class="form-group">
           <label for="emailTextArea">Your message</label>
-          <textarea class="form-control" id="emailTextArea" rows="5" placeholder="Start typing your message here"></textarea>
+          <textarea class="form-control" id="emailTextArea" rows="5" placeholder="Start typing your message here" name="message"></textarea>
+        </div>
+        <div class="form-group">
+          <div data-netlify-recaptcha="true"></div>
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
         <small id="privacyHelp" class="form-text text-muted"
-            >Note: I'll never share your email with anyone else.</small
+            >Note: I'll never share your email with anyone else, however this contact form utilizes the services of <a href="https://netlify.com">Netlify</a>, a third party provider.</small
           >
       </form>
     </section>
